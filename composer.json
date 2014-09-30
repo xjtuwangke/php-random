@@ -1,0 +1,20 @@
+{
+    "name": "xjtuwangke/php-random",
+    "description": "generate random string(s)",
+    "require": {
+        "ircmaxell/random-lib": "1.0.*@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wangke",
+            "email": "wangke85@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-0":{
+            "Xjtuwangke\\Random" : "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
